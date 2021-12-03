@@ -7,6 +7,7 @@
 - Practice creating classes
 - Practice associations between classes
 - Practice modularizing code
+
 Start by creating a Store class that has 2 attributes: a name and a list of products. The name must be provided upon creation, but the products list should be empty.
 
 Next, create a Product class that has 3 attributes: a name, a price, and a category. All of these should be provided upon creation.
@@ -25,23 +26,23 @@ Let's also give some methods to our Store class:
 
 ## Tasks
 
-- [ ] Create a Store class with 2 attributes
+- [X] Create a Store class with 2 attributes
 
-- [ ] Create a Product class with 3 attributes
+- [X] Create a Product class with 3 attributes
 
-- [ ] Add the print_info method to the Product class
+- [X] Add the print_info method to the Product class
 
-- [ ] Add the update_price method to the Product class
+- [X] Add the update_price method to the Product class
 
-- [ ] Add the add_product method to the Store class
+- [X] Add the add_product method to the Store class
 
-- [ ] Add the sell_product method to the Store class
+- [X] Add the sell_product method to the Store class
 
 - [ ] Test out your classes by creating an instance of the Store and a few instances of the Product class, add those instances to the store instance, and then test out the methods.
 
-- [ ] NINJA BONUS: Add the inflation method to the Store class
+- [X] NINJA BONUS: Add the inflation method to the Store class
 
-- [ ] NINJA BONUS: Add the set_clearance method to the Store class
+- [X] NINJA BONUS: Add the set_clearance method to the Store class
 
 - [ ] NINJA BONUS: Modularize your code into 3 separate files
 
