@@ -44,6 +44,6 @@ Let's also give some methods to our Store class:
 
 - [X] NINJA BONUS: Add the set_clearance method to the Store class
 
-- [ ] NINJA BONUS: Modularize your code into 3 separate files
+- [X] NINJA BONUS: Modularize your code into 3 separate files
 
 - [ ] SENSEI BONUS: Update the product class to give each product a unique id. Update the sell_product method to accept the unique id.
