@@ -1,7 +1,7 @@
 from classes.product import Product
 
 class Store:
-    def __init__(self, name, list_of_products):
+    def __init__(self, name):
         self.name = name
         self.list_of_products = []
 

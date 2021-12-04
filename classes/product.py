@@ -1,4 +1,7 @@
 class Product:
+
+    product_id = 1
+
     def __init__(self, name, price, category):
         self.name = name
         self.price = price
@@ -13,3 +16,7 @@ class Product:
     def print_info(self):
         print(f"Name of Product: {self.name}\n Category: {self.category}\n Price: {self.price}")
         return self
+
+    @classmethod
+    def increment_product_id(cls):
+        cls.product_id += 1
