@@ -8,12 +8,11 @@ class Store:
     def add_product(self, new_product):
         self.list_of_products.append(new_product)
         return self
-    def sell_product(self, id):
+    def sell_product(self):
         for i in range(len(self.list_of_products)):
-            if self.list_of_products[i].id==id:
-                soldItem=self.list_of_products.pop(i)
-                soldItem.print_info()
-                return self
+            soldItem=self.list_of_products.pop(i)
+            soldItem.print_info()
+            return self
         return self
     def inflation(self, percent_increase):
         for list_of_products in self.list_of_products:

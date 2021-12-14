@@ -23,6 +23,6 @@ for product in Target.list_of_products:
 Target.set_clearance("Baby Items", .5)
 for product in Target.list_of_products:
     product.print_info()
-# Target.sell_product(0)
-# for product in Target.list_of_products:
-#     product.print_info()
+Target.sell_product()
+for product in Target.list_of_products:
+    product.print_info()
