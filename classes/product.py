@@ -13,8 +13,9 @@ class Product:
         else:
             self.price=round(self.price*(1+percent_change),2)
         return self
+
     def print_info(self):
-        print(f"Name of Product: {self.name}\n Category: {self.category}\n Price: ${self.price}")
+        print(f"Name of Product: {self.name}\n Product ID: {self.product_id}\n Category: {self.category}\n Price: ${self.price}")
         return self
 
     @classmethod
